@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="DingdanAddressCell">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收货人:刘兴利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FE4-MW-eXC">
+                        <rect key="frame" x="17" y="10" width="100" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5dj-1p-cMS"/>
+                            <constraint firstAttribute="width" constant="100" id="NfO-3d-nkB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收货地址:科技信息大厦" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="289" translatesAutoresizingMaskIntoConstraints="NO" id="fSV-pd-91z">
+                        <rect key="frame" x="42" y="45" width="287" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="552cd6ffcfb84_64" translatesAutoresizingMaskIntoConstraints="NO" id="eDZ-fD-xht">
+                        <rect key="frame" x="15" y="50" width="17" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="5HH-GR-aD7"/>
+                            <constraint firstAttribute="height" constant="20" id="htW-2N-9nF"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-U5-KI2">
+                        <rect key="frame" x="339" y="38" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="FDX-S5-gpm"/>
+                            <constraint firstAttribute="width" constant="20" id="H2v-7r-9pA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13140099093" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-Sh-blS">
+                        <rect key="frame" x="137" y="10" width="110" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5DO-yw-VPD"/>
+                            <constraint firstAttribute="width" constant="110" id="MPL-Kd-N6r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rbh-U5-KI2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4IJ-l1-ZGx"/>
+                    <constraint firstItem="eDZ-fD-xht" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="8yA-bR-S2A"/>
+                    <constraint firstItem="0hR-Sh-blS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Wrr-DC-TtY"/>
+                    <constraint firstItem="FE4-MW-eXC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="b29-Ye-ClJ"/>
+                    <constraint firstItem="fSV-pd-91z" firstAttribute="top" secondItem="0hR-Sh-blS" secondAttribute="bottom" constant="15" id="csw-do-SkQ"/>
+                    <constraint firstAttribute="trailing" secondItem="rbh-U5-KI2" secondAttribute="trailing" constant="10" id="h9I-p8-SL8"/>
+                    <constraint firstItem="eDZ-fD-xht" firstAttribute="top" secondItem="FE4-MW-eXC" secondAttribute="bottom" constant="20" id="hhX-TW-GqX"/>
+                    <constraint firstItem="0hR-Sh-blS" firstAttribute="leading" secondItem="FE4-MW-eXC" secondAttribute="trailing" constant="20" id="htL-Jw-dmS"/>
+                    <constraint firstItem="FE4-MW-eXC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="nmE-b1-Ia3"/>
+                    <constraint firstItem="rbh-U5-KI2" firstAttribute="leading" secondItem="fSV-pd-91z" secondAttribute="trailing" constant="10" id="qur-Jn-Iai"/>
+                    <constraint firstAttribute="bottom" secondItem="fSV-pd-91z" secondAttribute="bottom" constant="10" id="rce-eZ-jER"/>
+                    <constraint firstItem="fSV-pd-91z" firstAttribute="leading" secondItem="eDZ-fD-xht" secondAttribute="trailing" constant="10" id="yfW-cK-SkM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="rightArrowView" destination="rbh-U5-KI2" id="tIv-Zn-34z"/>
+                <outlet property="shouhuoAddress" destination="fSV-pd-91z" id="3iT-Gx-9Fc"/>
+                <outlet property="shouhuoPersonName" destination="FE4-MW-eXC" id="eyh-K0-GoI"/>
+                <outlet property="telLabel" destination="0hR-Sh-blS" id="TEe-9f-UaJ"/>
+            </connections>
+            <point key="canvasLocation" x="225.5" y="330.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="552cd6ffcfb84_64" width="17" height="23"/>
+        <image name="rightArrow.png" width="32" height="32"/>
+    </resources>
+</document>

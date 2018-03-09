@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="FindGroupCell">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国医师协会超声医师分会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-NU-fxH">
+                        <rect key="frame" x="51" y="29" width="220" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ei7-iI-pbb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyz-8E-HCN">
+                        <rect key="frame" x="51" y="76" width="295" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Twu-z7-5yY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zts-sJ-neG">
+                        <rect key="frame" x="8" y="21" width="35" height="35"/>
+                        <color key="backgroundColor" red="0.25759821570000002" green="0.72289663459999998" blue="0.037261028139999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="etz-EB-2QR"/>
+                            <constraint firstAttribute="height" constant="35" id="jsb-iT-BsR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="17.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="786-GQ-BQm">
+                        <rect key="frame" x="281" y="26" width="50" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="NTe-WD-IXe"/>
+                            <constraint firstAttribute="width" constant="50" id="mcu-RT-GOz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="添加">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                <color key="value" red="0.75416402284263961" green="0.75416402284263961" blue="0.75416402284263961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qyz-8E-HCN" secondAttribute="bottom" id="1Qq-C6-eV9"/>
+                    <constraint firstAttribute="trailing" secondItem="786-GQ-BQm" secondAttribute="trailing" constant="15" id="Ajx-Z3-alh"/>
+                    <constraint firstItem="786-GQ-BQm" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EOb-If-tum"/>
+                    <constraint firstItem="Qyz-8E-HCN" firstAttribute="leading" secondItem="fg9-NU-fxH" secondAttribute="leading" id="RdR-MH-HOA"/>
+                    <constraint firstItem="fg9-NU-fxH" firstAttribute="leading" secondItem="zts-sJ-neG" secondAttribute="trailing" constant="8" id="gjd-2B-E3S"/>
+                    <constraint firstItem="zts-sJ-neG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="j4f-8U-WhU"/>
+                    <constraint firstItem="fg9-NU-fxH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pD8-E5-PSC"/>
+                    <constraint firstItem="786-GQ-BQm" firstAttribute="leading" secondItem="fg9-NU-fxH" secondAttribute="trailing" constant="10" id="w59-7V-xWb"/>
+                    <constraint firstAttribute="trailing" secondItem="Qyz-8E-HCN" secondAttribute="trailing" id="wWK-Kn-20Q"/>
+                    <constraint firstItem="zts-sJ-neG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="xwA-D7-EKc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="groupAddBtn" destination="786-GQ-BQm" id="DQ1-QR-hA5"/>
+                <outlet property="groupImageView" destination="zts-sJ-neG" id="cz8-bN-of4"/>
+                <outlet property="groupTitleLab" destination="fg9-NU-fxH" id="Wtr-lA-563"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="70.5"/>
+        </tableViewCell>
+    </objects>
+</document>

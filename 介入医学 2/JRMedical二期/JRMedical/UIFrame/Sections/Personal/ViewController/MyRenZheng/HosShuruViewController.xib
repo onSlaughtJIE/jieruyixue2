@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HosShuruViewController">
+            <connections>
+                <outlet property="shuruTf" destination="vop-n1-lh9" id="k15-8C-BLD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Eh-VC-41F">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vop-n1-lh9">
+                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vop-n1-lh9" secondAttribute="trailing" id="4bU-r8-ifT"/>
+                        <constraint firstItem="vop-n1-lh9" firstAttribute="leading" secondItem="7Eh-VC-41F" secondAttribute="leading" id="Jmm-HC-Wvp"/>
+                        <constraint firstAttribute="height" constant="40" id="ONF-Pu-1DX"/>
+                        <constraint firstItem="vop-n1-lh9" firstAttribute="top" secondItem="7Eh-VC-41F" secondAttribute="top" id="hL1-Xh-Ffr"/>
+                        <constraint firstAttribute="bottom" secondItem="vop-n1-lh9" secondAttribute="bottom" id="lck-ml-7mR"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="vop-n1-lh9"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="ONF-Pu-1DX"/>
+                            <exclude reference="4bU-r8-ifT"/>
+                            <exclude reference="Jmm-HC-Wvp"/>
+                            <exclude reference="hL1-Xh-Ffr"/>
+                            <exclude reference="lck-ml-7mR"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="vop-n1-lh9"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="ONF-Pu-1DX"/>
+                            <include reference="4bU-r8-ifT"/>
+                            <include reference="Jmm-HC-Wvp"/>
+                            <include reference="hL1-Xh-Ffr"/>
+                            <include reference="lck-ml-7mR"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7Eh-VC-41F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A3n-pi-JBh"/>
+                <constraint firstAttribute="trailing" secondItem="7Eh-VC-41F" secondAttribute="trailing" id="bgp-Oh-Ebm"/>
+                <constraint firstItem="7Eh-VC-41F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="m8q-Yx-Ko2"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="7Eh-VC-41F"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="A3n-pi-JBh"/>
+                    <exclude reference="bgp-Oh-Ebm"/>
+                    <exclude reference="m8q-Yx-Ko2"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="7Eh-VC-41F"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="A3n-pi-JBh"/>
+                    <include reference="bgp-Oh-Ebm"/>
+                    <include reference="m8q-Yx-Ko2"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

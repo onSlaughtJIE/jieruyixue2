@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="GroupApplyZuweiCell">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiX-T7-Gs1">
+                        <rect key="frame" x="76" y="5" width="243" height="80"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3aJ-9T-dI7">
+                                <rect key="frame" x="0.0" y="23" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Fjg-Lc-TO7"/>
+                                    <constraint firstAttribute="height" constant="35" id="TQp-Ak-WdC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NnA-cY-JTz">
+                                <rect key="frame" x="40" y="23" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="LPR-Ea-3Nc"/>
+                                    <constraint firstAttribute="width" constant="35" id="Wb0-Eo-tEe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x2X-2p-hYZ">
+                                <rect key="frame" x="80" y="23" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="GKk-PV-nrP"/>
+                                    <constraint firstAttribute="height" constant="35" id="Tnp-eO-wtY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-kZ-kU9">
+                                <rect key="frame" x="120" y="23" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="39L-WC-4WV"/>
+                                    <constraint firstAttribute="height" constant="35" id="uHr-x6-dxx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m1P-n4-Fdy">
+                                <rect key="frame" x="160" y="23" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Ea2-Yd-J0q"/>
+                                    <constraint firstAttribute="height" constant="35" id="F57-8Y-gEK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m1P-n4-Fdy" firstAttribute="centerY" secondItem="hiX-T7-Gs1" secondAttribute="centerY" id="B02-MA-hx5"/>
+                            <constraint firstItem="3aJ-9T-dI7" firstAttribute="centerY" secondItem="hiX-T7-Gs1" secondAttribute="centerY" id="FMJ-oD-YKo"/>
+                            <constraint firstItem="m1P-n4-Fdy" firstAttribute="leading" secondItem="HAf-kZ-kU9" secondAttribute="trailing" constant="5" id="I43-Ct-MDY"/>
+                            <constraint firstItem="3aJ-9T-dI7" firstAttribute="leading" secondItem="hiX-T7-Gs1" secondAttribute="leading" id="MXY-If-qYR"/>
+                            <constraint firstItem="x2X-2p-hYZ" firstAttribute="centerY" secondItem="hiX-T7-Gs1" secondAttribute="centerY" id="cnl-Bu-zcw"/>
+                            <constraint firstItem="NnA-cY-JTz" firstAttribute="centerY" secondItem="hiX-T7-Gs1" secondAttribute="centerY" id="hlh-Cp-CWt"/>
+                            <constraint firstItem="NnA-cY-JTz" firstAttribute="leading" secondItem="3aJ-9T-dI7" secondAttribute="trailing" constant="5" id="kla-Xt-cNu"/>
+                            <constraint firstItem="HAf-kZ-kU9" firstAttribute="leading" secondItem="x2X-2p-hYZ" secondAttribute="trailing" constant="5" id="sG9-s2-lJi"/>
+                            <constraint firstItem="x2X-2p-hYZ" firstAttribute="leading" secondItem="NnA-cY-JTz" secondAttribute="trailing" constant="5" id="wTL-59-2MF"/>
+                            <constraint firstItem="HAf-kZ-kU9" firstAttribute="centerY" secondItem="hiX-T7-Gs1" secondAttribute="centerY" id="y10-l1-BRE"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小箭头" translatesAutoresizingMaskIntoConstraints="NO" id="xM6-Xz-hnk">
+                        <rect key="frame" x="327" y="40.5" width="5" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="L5Q-fJ-bZz"/>
+                            <constraint firstAttribute="width" constant="5" id="rb5-c9-8wn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYh-Sc-9Tg">
+                        <rect key="frame" x="0.0" y="89" width="340" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="yqc-84-BpX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主  席" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWu-Bu-M5q">
+                        <rect key="frame" x="8" y="35" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5L2-6x-rcw"/>
+                            <constraint firstAttribute="width" constant="60" id="ZPk-Ui-ABb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hiX-T7-Gs1" firstAttribute="leading" secondItem="tWu-Bu-M5q" secondAttribute="trailing" constant="8" id="2zj-kc-hLq"/>
+                    <constraint firstItem="tWu-Bu-M5q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="3HJ-3T-K98"/>
+                    <constraint firstItem="tWu-Bu-M5q" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6zA-bg-FdZ"/>
+                    <constraint firstItem="xM6-Xz-hnk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9w4-Od-dlt"/>
+                    <constraint firstAttribute="bottom" secondItem="dYh-Sc-9Tg" secondAttribute="bottom" id="Dz6-58-GZS"/>
+                    <constraint firstItem="dYh-Sc-9Tg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="HvJ-wk-rTY"/>
+                    <constraint firstAttribute="trailing" secondItem="xM6-Xz-hnk" secondAttribute="trailing" constant="8" id="Ow1-gp-1bW"/>
+                    <constraint firstItem="hiX-T7-Gs1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Y5p-6s-Jh8"/>
+                    <constraint firstAttribute="bottom" secondItem="hiX-T7-Gs1" secondAttribute="bottom" constant="5" id="b3Q-rX-ici"/>
+                    <constraint firstAttribute="trailing" secondItem="dYh-Sc-9Tg" secondAttribute="trailing" id="bUU-Np-Ie1"/>
+                    <constraint firstItem="xM6-Xz-hnk" firstAttribute="leading" secondItem="hiX-T7-Gs1" secondAttribute="trailing" constant="8" id="mAU-Jg-ymF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fiveImage" destination="m1P-n4-Fdy" id="UgX-KC-DCj"/>
+                <outlet property="fourImage" destination="HAf-kZ-kU9" id="hhH-zM-kKf"/>
+                <outlet property="oneImage" destination="3aJ-9T-dI7" id="4Df-tP-SwV"/>
+                <outlet property="threeImage" destination="x2X-2p-hYZ" id="afW-kg-8kC"/>
+                <outlet property="twoImage" destination="NnA-cY-JTz" id="Ybn-91-qQm"/>
+                <outlet property="zhichengLab" destination="tWu-Bu-M5q" id="e80-Fb-TYU"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="71.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="小箭头" width="5" height="9"/>
+    </resources>
+</document>

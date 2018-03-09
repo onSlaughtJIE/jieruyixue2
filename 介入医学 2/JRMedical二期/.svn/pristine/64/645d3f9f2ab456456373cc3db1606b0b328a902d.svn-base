@@ -1,0 +1,84 @@
+//
+//  PrefixHeader.h
+//  JRMedical
+//
+//  Created by a on 16/11/4.
+//  Copyright © 2016年 idcby. All rights reserved.
+//
+
+/**  导入头文件 和 库  **/
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#ifdef __OBJC__
+//系统库及头文件
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+
+//三方库头文件
+#import <AFNetworking.h>
+//#import <YYKit/YYKit.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <FrameAccessor.h>
+#import "MJExtension.h"
+#import <MBProgressHUD.h>
+#import <MJRefresh.h>
+#import "Masonry.h"
+#import "FXKeychain.h"
+#import "UIView+SDAutoLayout.h"
+#import "HYBNetworking.h"
+#import "SVProgressHUD.h"
+
+//自己头文件
+#import "UserInfo.h"//用户信息类
+#import "Utils.h"//常用工具类
+#import "BaseNavigationController.h"
+#import "BaseNetwork.h"
+#import "AFManegerHelp.h"
+#import "IdcbyEncryptionMacros.h"//加密宏文件
+#import "ToolMacros.h"//工具宏文件
+
+// 环信
+#import "EMSDK.h"
+#import "EaseUI.h"
+#import "MBProgressHUD+Add.h"
+#import "UIView+Position.h"
+#import "EMAlertView.h"
+
+#endif
+
+
+// 环信直播
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define SysVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define KScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define kEaseDefaultIconFont @"iconfont"
+#define kDefaultChatroomId @"203138578711052716"
+#define kDefaultSystemTextGrayColor RGBACOLOR(197, 197, 197, 1)
+#define kDefaultSystemTextColor RGBACOLOR(38, 38, 38, 1)
+#define kDefaultSystemBgColor RGBACOLOR(50, 50, 50, 1)
+#define kDefaultSystemLightGrayColor RGBACOLOR(197, 197, 197, 1)
+#define kLiveDemoVersion @"1.0.0"
+#define kLiveLastLoginUsername @"em_last_username"
+
+//demo中的推流地址仅供demo测试使用，如果更换推流域名地址，请联系客服或者客户经理索取对应的CGIKey
+#define CGIKey @"publish3-key"
+
+#define RecordDomain(id) [NSString stringWithFormat:@"rtmp://publishjryx.idcby.cn/YouChuangYiLiao/%@", id];
+#define PlayDomain(id) [NSString stringWithFormat:@"rtmp://rtmpjryx.idcby.cn/YouChuangYiLiao/%@", id];
+
+
+
+// Xcode8 解决打印不全
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr, "%s:%zd\t%s\n", [[[NSString stringWithUTF8String: __FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat: FORMAT, ## __VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+
+#endif /* PrefixHeader_h */

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IMFindViewController">
+            <connections>
+                <outlet property="IMSearchBar" destination="mOI-D8-tev" id="FlF-Ln-Hqf"/>
+                <outlet property="SearchTableView" destination="nU6-Fd-NkD" id="fqW-MZ-AaJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="手机号" translatesAutoresizingMaskIntoConstraints="NO" id="mOI-D8-tev">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ccR-LF-PVI"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nU6-Fd-NkD">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="YNY-fr-HFH"/>
+                        <outlet property="delegate" destination="-1" id="gEB-vy-rdn"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mOI-D8-tev" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2rF-lY-1f4"/>
+                <constraint firstAttribute="bottom" secondItem="nU6-Fd-NkD" secondAttribute="bottom" id="LK1-a6-6v9"/>
+                <constraint firstItem="nU6-Fd-NkD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ORM-pU-GyJ"/>
+                <constraint firstAttribute="trailing" secondItem="nU6-Fd-NkD" secondAttribute="trailing" id="WcN-bW-hAT"/>
+                <constraint firstItem="mOI-D8-tev" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aQe-ew-EAp"/>
+                <constraint firstItem="nU6-Fd-NkD" firstAttribute="top" secondItem="mOI-D8-tev" secondAttribute="bottom" id="acY-t0-qDS"/>
+                <constraint firstAttribute="trailing" secondItem="mOI-D8-tev" secondAttribute="trailing" id="lTF-wb-cAV"/>
+            </constraints>
+            <point key="canvasLocation" x="-19" y="-26"/>
+        </view>
+    </objects>
+</document>

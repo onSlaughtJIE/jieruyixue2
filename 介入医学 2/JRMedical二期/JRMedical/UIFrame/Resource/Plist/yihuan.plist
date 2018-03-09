@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>collectionview</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>医院专家</string>
+			<key>imageName</key>
+			<string>yisheng</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>科普宣教</string>
+			<key>imageName</key>
+			<string>jiankangxuanjiao</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>患者咨询</string>
+			<key>imageName</key>
+			<string>zhuanjiayisheng</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>名院名医</string>
+			<key>imageName</key>
+			<string>yiyuan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

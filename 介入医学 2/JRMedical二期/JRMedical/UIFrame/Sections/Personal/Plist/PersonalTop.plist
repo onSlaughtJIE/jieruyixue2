@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>controller</key>
+		<string>MyOrderRootVC</string>
+		<key>tag</key>
+		<real>10001</real>
+		<key>icon</key>
+		<string>daifukuan</string>
+		<key>title</key>
+		<string>待付款</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>MyOrderRootVC</string>
+		<key>tag</key>
+		<real>10002</real>
+		<key>icon</key>
+		<string>daifahuo</string>
+		<key>title</key>
+		<string>待发货</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>MyOrderRootVC</string>
+		<key>tag</key>
+		<real>10003</real>
+		<key>icon</key>
+		<string>daipingjia</string>
+		<key>title</key>
+		<string>待评价</string>
+	</dict>
+	<dict>
+		<key>controller</key>
+		<string>MyOrderRootVC</string>
+		<key>tag</key>
+		<real>10004</real>
+		<key>icon</key>
+		<string>wodedingdan</string>
+		<key>title</key>
+		<string>我的订单</string>
+	</dict>
+</array>
+</plist>
